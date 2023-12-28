@@ -1,12 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Navbar } from './components';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-     <h1>
-      Hello React portfolio
-     </h1>
+     <Navbar />
     </div>
   );
 }
